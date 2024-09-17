@@ -85,7 +85,7 @@ def main():
         display_manage_users_screen()
 
 def display_login_screen():
-    st.image("tallmanlogo.png", width=200)
+    st.image("tallmanlC:\Users\rober\My Drive\Dunmore\Source for AI\Tallman\TallmanAIapp\TallmanAIapp\tallmanlogo.pngogo.png", width=200)
     st.title("Login Screen")
 
     # Only include login-related fields here (Username and PIN)
@@ -128,7 +128,7 @@ def display_login_screen():
                 st.experimental_rerun()
 
 def display_new_account_screen():
-    st.image("tallmanlogo.png", width=200)
+    st.image("C:\Users\rober\My Drive\Dunmore\Source for AI\Tallman\TallmanAIapp\TallmanAIapp\tallmanlogo.png.png", width=200)
     st.title("New Account Screen")
     
     username = st.text_input("Username")
@@ -144,7 +144,7 @@ def display_new_account_screen():
             st.error("Failed to create account. Please try again.")
 
 def display_qa_screen():
-    st.image("tallmanlogo.png", width=200)
+    st.image("C:\Users\rober\My Drive\Dunmore\Source for AI\Tallman\TallmanAIapp\TallmanAIapp\tallmanlogo.png.png", width=200)
     st.title("Get Answer Screen")
 
     # Correct placement of st.radio() to select a subject
@@ -233,7 +233,7 @@ def display_correct_screen():
                 st.experimental_rerun()
 
 def display_manage_users_screen():
-    st.image("tallmanlogo.png", width=200)
+    st.image("C:\Users\rober\My Drive\Dunmore\Source for AI\Tallman\TallmanAIapp\TallmanAIapp\tallmanlogo.png.png", width=200)
     st.title("Manage Users Screen")
 
     users = manage_users()  # Load all users from your user management function

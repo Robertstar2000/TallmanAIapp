@@ -338,3 +338,4 @@ def close_chroma_client(chroma_client):
     except Exception as e:
         print(f"Failed to close ChromaDB client: {e}")
         raise e
+        

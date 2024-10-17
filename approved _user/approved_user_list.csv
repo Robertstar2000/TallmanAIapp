@@ -1,0 +1,5 @@
+id,username,pin,email,role
+1,bob,$2b$12$hOJ4TPiobMPN0q28XGlkbuX9DmkmZReXWgOqo8PoolNm/K.3855Gu,mifecoinc@gmail.com,admin
+2,charlie,$2b$12$ONTPOJcN0fyfLL9vyTzuGeIgvYUSQ4pXvCGzYJlpa1kmtdG55txC.,charlie@tallmanequipment.com,admin
+3,rick,$2b$12$FfqR2MMa5U2ba7ABenzrTeflctXccG4xq6rTiF3JE26RG/PZ3bFU6,rickl@tallmanequipment.com,admin
+4,miguel,$2b$12$acen2t5Ugfn6Sibfvj68i.DFItSJrBvcyp2Cv4eX7Qyg7/WR07iWK,miguelj@tallmanequipment.com,admin

@@ -4,6 +4,7 @@ import os
 import streamlit as st
 from dotenv import load_dotenv
 import datetime
+import sqlite3
 import chromadb
 import pandas as pd
 from user_management import add_user, verify_pin, load_users, reset_password, save_users
@@ -19,9 +20,20 @@ from qa_module import (
 import sys
 
 # ============================
-# Load Environment Variables
+# Load Environment Variables and sql for chroma
 # ============================
 load_dotenv()
+
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
+}
 
 # ============================
 # Path Definitions
